@@ -52,5 +52,10 @@ th, td{
    
 }
 a{
-    color: gold;
+    color: orange;
+}
+div{
+    height: 10px;
+    background-color: gold;
+    margin: 10px;
 }
