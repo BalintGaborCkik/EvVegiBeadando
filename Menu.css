@@ -12,13 +12,14 @@ h1{
     font-style: italic;
 }
 h2{
-    text-shadow:  2px 2px 2px orange ;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     margin-left: 10px;
 }
 ul{
     margin: 20px;
+    background-color: black;
+    width: 120px;
 }
 table{
     background-color: black;
@@ -58,4 +59,8 @@ div{
     height: 10px;
     background-color: gold;
     margin: 10px;
+    margin-right: 20%;
+}
+tr td:hover{
+    background-color: rgb(100, 100, 100);
 }
