@@ -1,15 +1,13 @@
 h1 {
     text-align: center;
     color: gold;
-    margin: left 5%;
-    margin: right 5%;
+    margin-left: 5%;
     font-weight: bolder;
 
 }
 body {
     background-color: black;
     color: orange;
-    margin-right: 10%;
     margin-left: 5%;
     border: 5px solid orange;
     padding: 3px;
@@ -20,7 +18,6 @@ p {
 h2 {
     color: gold;
     font-weight: bolder;
-    margin: right 10%;
     margin-left: 5%;
 }
 .kiemelés {

@@ -36,7 +36,7 @@ td{
 p{
     margin: 20px;
     background-color: gray;
-    border: solid 2px black;
+    border: solid black 2px;
     padding: 5px;
 
 }
@@ -44,7 +44,7 @@ img{
     width: 20%;
 }
 th, td{
-    border: solid 3px gold;
+    border: solid gold 3px;
     border-collapse: collapse;
 }
 .Cím{
