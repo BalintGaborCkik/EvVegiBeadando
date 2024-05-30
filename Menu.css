@@ -1,0 +1,66 @@
+body{
+    background-image: url(MenuBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: gold;
+    
+}
+h1{
+    text-align: center;
+    text-shadow:  2px 2px 2px orange ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-left: 10px;
+}
+ul{
+    margin: 20px;
+    background-color: black;
+    width: 120px;
+}
+table{
+    background-color: black;
+    border: 3 solid gold;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    margin: 3px;
+}
+p{
+    margin: 20px;
+    background-color: gray;
+    border: solid 2px black;
+    padding: 5px;
+
+}
+img{
+    width: 20%;
+}
+th, td{
+    border: solid 3px gold;
+    border-collapse: collapse;
+}
+.Cím{
+    text-shadow: 1px 1px 1px orange ;
+    font-weight: bold;
+   
+}
+a{
+    color: orange;
+}
+div{
+    height: 10px;
+    background-color: gold;
+    margin: 10px;
+    margin-right: 20%;
+}
+tr td:hover{
+    background-color: rgb(50, 50, 50);
+}
