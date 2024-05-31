@@ -1,20 +1,22 @@
 body{
     background-image: url(MenuBackground.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
     color: gold;
     
 }
 h1{
+    color: gold;
     text-align: center;
     text-shadow:  2px 2px 2px orange ;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 h2{
+    color: gold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 ul{
     margin: 20px;
@@ -38,7 +40,7 @@ p{
     background-color: gray;
     border: solid black 2px;
     padding: 5px;
-
+    color: gold;
 }
 img{
     width: 20%;
@@ -46,14 +48,12 @@ img{
 th, td{
     border: solid gold 3px;
     border-collapse: collapse;
+    color: gold;
 }
 .Cím{
     text-shadow: 1px 1px 1px orange ;
     font-weight: bold;
    
-}
-a{
-    color: orange;
 }
 #vonal{
     height: 10px;
@@ -63,4 +63,7 @@ a{
 }
 tr td:hover{
     background-color: rgb(50, 50, 50);
+}
+li{
+    color: gold;
 }
