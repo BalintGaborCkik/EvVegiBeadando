@@ -22,3 +22,33 @@ ul{
 a{
     color: orange;
 }
+a:hover{
+    color: orange;
+}
+table{
+    margin: auto;
+    margin-bottom: 30px;
+}
+button{
+    color: gold;
+    background-color: black;
+    border: solid 3px darkgoldenrod;
+    font-weight: bold;
+}
+#thumbnail{
+    float: right;
+    border: 3px solid gold;
+    margin: 20px;
+}
+.dőlt{
+    font-style: italic;
+    color: darkgoldenrod;
+}
+.kövér{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.aláhúzás{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
