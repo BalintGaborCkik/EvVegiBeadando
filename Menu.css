@@ -43,6 +43,7 @@ p{
     border: solid black 2px;
     padding: 5px;
     color: gold;
+    text-align: justify;
 }
 th, td{
     border: solid gold 3px;
@@ -74,4 +75,10 @@ a:hover{
 }
 li:hover{
     color: gold;
+}
+video{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
 }
