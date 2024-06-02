@@ -1,40 +1,61 @@
-h1 {
-    text-align: center;
-    color: dodgerblue;
-    margin: left 5%;
-    margin: right 5%;
-    font-weight: bolder;
-    padding: 5px;
-}
 body {
     background-color: black;
-    color: dodgerblue;
-    margin-right: 10%;
-    margin-left: 5%;
-    border: 5px solid dodgerblue;
-    padding: 3px;
+    color: gold;
+    margin: 1%;
+    border: 5px solid gold;
+}
+h1 {
+    text-align: center;
+    color: gold;
+    font-weight: bolder;
+    text-shadow:  2px 2px 2px orange ;
 }
 p {
-    color: dodgerblue;
+    margin-left: 20px;
 }
 h2 {
-    color: dodgerblue;
+    color: gold;
     font-weight: bolder;
-    margin: right 10%;
-    margin-left: 5%;
+    text-decoration: underline;
+    margin-left: 15px;
+    text-shadow:  2px 2px 2px orange ;
 }
-.kiemelés {
+h3{
     font-size: large;
     font-weight: bolder;
-    color: dodgerblue;
+    color: darkgoldenrod;
     margin-left: 2%;
-    
 }
-#kép {
+#kép{
     float: right;
-    height: 20%;
-    width: 20%;
-    border: 5px solid dodgerblue;
-    padding: 3px;
+    border: 5px solid gold;
+    margin: 20px;
 }
-
+.kövér{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.dőlt{
+    font-style: italic;
+    color: darkgoldenrod;
+}
+.aláhúzás{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+li{
+    color: orange;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: gold;
+}
+table{
+    margin: auto;
+    margin-bottom: 30px;
+}
+td{
+    padding: 5px;
+}

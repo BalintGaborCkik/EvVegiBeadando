@@ -53,3 +53,6 @@ button{
     text-decoration: underline;
     color: darkgoldenrod;
 }
+td{
+    padding: 5px;
+}
