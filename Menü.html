@@ -9,25 +9,25 @@
     <link rel="stylesheet" href="Menu.css">
 </head>
 <body>
-    <h1 class="egyescimsor">Filmajánló</h1>
+    <h1>Filmajánló</h1>
     <h2>Gyors elérés</h2>
     <ul>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <li><a href="#bevezetes">Bevezető</a></li>
+                    <a href="#bevezetes"><li>Bevezető</li></a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <li><a href="#filmekmegnezese">A filmek megnézése</a></li>
+                    <a href="#filmekmegnezese"><li>A filmek megnézése</li></a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <li><a href="#filmek">A választható filmek</a></li>
+                    <a href="#videó"><li>A weblap tartalmáról videó</li></a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <li><a href="#szerk">Szerkeztők</a></li>
+                    <a href="#filmek"><li>A választható filmek</li></a>
                 </div>
-                <div>
-                    <li><a href="#videó">A tartalomról videó</a></li>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#szerk"><li>Szerkeztők</li></a>
                 </div>
             </div>
         </div>
@@ -46,17 +46,20 @@
                     A filmek megnézése
                  </h2>
                  <p>
-                    Ha elnyertük érdeklődésüket az egyik film iránt megnézhetik egy videás linken, amit a filmhez tartozó ajánlólapon a gyors elérés segítségével megtalálnak. A videa egy vírusmentes, biztonságos weboldal.
+                    Ha elnyertük érdeklődésüket az egyik film iránt megnézhetik a feltűntetett linken, amit a filmhez tartozó ajánlólapon a gyors elérés segítségével megtalálhatnak.
                  </p>
             </div>
         </div>
     </div>
     <hr>
-    <video controls src="Filmajánló.mp4" id="videó"></video>
+    <h2 id="videó">
+        A weblap tartalmáról videó
+    </h2>
+    <video controls src="Filmajánló.mp4"></video>
     <table id="filmek">
         <tr>
             <th>Filmcím</th>
-            <th>Ajánlólap link</th>
+            <th>A film ismertetése</th>
         </tr>
         <tr>
             <td class="Cím"><span>Jumanji - Vár a dzsungel</span></td>

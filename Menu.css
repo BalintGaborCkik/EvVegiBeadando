@@ -67,18 +67,19 @@ li{
 a{
     color: orange;
 }
+a:hover{
+    color: orange;
+}
 tr td:hover{
     background-color: rgb(50, 50, 50);
-}
-a:hover{
-    color: gold;
-}
-li:hover{
-    color: gold;
 }
 video{
     width: 500px;
     display: block;
     margin: auto;
     margin-bottom: 50px;
+}
+#videó{
+    margin-left: 0px;
+    text-align: center;
 }

@@ -1,36 +1,55 @@
+
+body {
+    background-color: black;
+    color: gold;
+    margin: 1%;
+    border: 5px solid gold;
+}
 h1 {
     text-align: center;
     color: gold;
-    margin-left: 5%;
     font-weight: bolder;
-
-}
-body {
-    background-color: black;
-    color: orange;
-    margin-left: 5%;
-    border: 5px solid orange;
-    padding: 3px;
+    text-shadow:  2px 2px 2px orange ;
 }
 p {
-    color: orange;
+    margin-left: 20px;
 }
 h2 {
     color: gold;
     font-weight: bolder;
-    margin-left: 5%;
+    text-decoration: underline;
+    margin-left: 15px;
+    text-shadow:  2px 2px 2px orange ;
 }
-.kiemelés {
+h3{
     font-size: large;
     font-weight: bolder;
-    color: gold;
+    color: darkgoldenrod;
     margin-left: 2%;
 }
-#kép {
+#kép{
     float: right;
-    height: 20%;
-    width: 20%;
     border: 5px solid orange;
     padding: 3px;
 }
-
+.kövér{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.dőlt{
+    font-style: italic;
+    color: darkgoldenrod;
+}
+.aláhúzás{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+li{
+    color: orange;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: gold;
+}
